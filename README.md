@@ -1,24 +1,14 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Designed to provide api routing for: (list, instance, new, create, update, delete)
+GET /api/airplanes
+GET /api/airplanes/:id
+POST /api/airplanes/new
+PUT /api/airplanes/:id
+DELETE /api/airplanes/:id
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+The airplane model should provide info, inclusive of:
+name
+seats
+img_url
+lesson_rate

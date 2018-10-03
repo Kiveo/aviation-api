@@ -1,5 +1,5 @@
 class Api::AirplanesController < ApplicationController  
-  before_action :set_airplane, only: [:show, :edit, :update, :destroy]
+  before_action :set_airplane, only: [:show, :update, :destroy]
 
   def index
     render json: Airplane.all 

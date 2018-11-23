@@ -7,7 +7,9 @@
 
 Rails.application.config.middleware.insert_before 0, Rack::Cors do
   allow do
-    origins ['localhost:3000', 'aviation-lessons.com']
+    origins ['https://aviation-client.herokuapp.com/', 'aviation-client.herokuapp.com']
+    # Use whatever host works for you: sample localhost
+    # origins ['localhost:3000', 'aviation-lessons.com']
 
     resource '*',
       headers: :any,
